@@ -1,0 +1,14 @@
+{
+  "month": "October 2026",
+  "previousMonthName": "September",
+  "previousMonthTotal": 2093.82,
+  "categories": [
+    { "id": "groceries", "name": "Groceries", "amount": 604.36, "icon": "cart" },
+    { "id": "clothes", "name": "Clothes & Shoes", "amount": 296.65, "icon": "shirt" },
+    { "id": "cafes", "name": "Cafes & Restaurants", "amount": 272.70, "icon": "coffee" },
+    { "id": "sport", "name": "Sport", "amount": 208.21, "icon": "dumbbell" },
+    { "id": "bills", "name": "Bills", "amount": 182.41, "icon": null },
+    { "id": "health", "name": "Health", "amount": 154.78, "icon": "heart" },
+    { "id": "travel", "name": "Travel", "amount": 123.45, "icon": "plane" }
+  ]
+}

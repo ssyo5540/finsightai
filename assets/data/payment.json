@@ -1,0 +1,16 @@
+{
+  "merchant": "Sushi Zen",
+  "merchantType": "Restaurant",
+  "amount": 64.00,
+  "rewardCategory": "dining",
+  "expenseCategoryId": "cafes",
+  "expenseCategoryName": "Cafes & Restaurants",
+  "budgetCategoryId": "dining",
+  "budgetOffer": "Budget Agent can move $30 from Shopping.",
+  "rewardCategories": [
+    { "id": "dining", "label": "Dining", "noun": "restaurants" },
+    { "id": "groceries", "label": "Groceries", "noun": "groceries" },
+    { "id": "travel", "label": "Travel", "noun": "travel" },
+    { "id": "online", "label": "Online", "noun": "online shopping" }
+  ]
+}

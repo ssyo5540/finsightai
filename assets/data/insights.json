@@ -1,0 +1,30 @@
+{
+  "updatedLabel": "Updated 2 min ago",
+  "healthScore": 82,
+  "healthDelta": "+6 vs Sep",
+  "weekSpend": [
+    { "day": "M", "amount": 92 },
+    { "day": "T", "amount": 130 },
+    { "day": "W", "amount": 75 },
+    { "day": "T", "amount": 113 },
+    { "day": "F", "amount": 184 },
+    { "day": "S", "amount": 146 },
+    { "day": "S", "amount": 58 }
+  ],
+  "missedRewards": {
+    "label": "Missed rewards · October",
+    "agent": "Rewards Agent",
+    "amount": 38.40,
+    "body": "6 dining purchases went on your debit card instead of Gold Dining."
+  },
+  "highlights": [
+    { "icon": "trendUp", "tone": "warm", "title": "Dining up 18%", "body": "Mostly weekend delivery orders." },
+    { "icon": "check", "tone": "green", "title": "Bills on time", "body": "12-month streak, keep it up." }
+  ],
+  "suggestion": {
+    "icon": "bolt",
+    "title": "Move utilities to Cash+",
+    "body": "Earn $4.10 more each month",
+    "appliedBody": "Utilities now pay with Cash+ Everyday"
+  }
+}

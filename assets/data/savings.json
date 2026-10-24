@@ -1,0 +1,8 @@
+{
+  "goals": [
+    { "id": "japan", "name": "Japan Trip", "icon": "plane", "saved": 3240, "target": 5000, "monthly": 440, "targetDate": "Mar 2027", "status": "On track", "highlight": false, "tip": "Round up purchases to reach Japan 5 weeks sooner." },
+    { "id": "emergency", "name": "Emergency Fund", "icon": "shield", "saved": 9200, "target": 12000, "monthly": 300, "targetDate": "Sep 2027", "status": "On track", "highlight": false, "tip": "Three more months of $300 covers a full quarter of rent." },
+    { "id": "laptop", "name": "New Laptop", "icon": "laptop", "saved": 1380, "target": 2400, "monthly": 250, "targetDate": "Feb 2027", "status": "On track", "highlight": true, "tip": "Buy on Cash+ Everyday to get 2% of the price back." },
+    { "id": "home", "name": "Home Down Payment", "icon": "home", "saved": 4000, "target": 40000, "monthly": 600, "targetDate": "Jan 2031", "status": "Behind", "highlight": false, "tip": "Adding $150 a month brings this goal in a year earlier." }
+  ]
+}

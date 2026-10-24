@@ -1,0 +1,12 @@
+{
+  "month": "October 2026",
+  "monthlyLimit": 3000,
+  "daysLeft": 7,
+  "agentAdvice": "Cook in 2 nights to stay on track.",
+  "categories": [
+    { "id": "groceries", "name": "Groceries", "shortName": "Groceries", "spent": 604, "limit": 700, "expenseCategoryIds": ["groceries"] },
+    { "id": "dining", "name": "Dining out", "shortName": "Dining", "spent": 368, "limit": 400, "expenseCategoryIds": ["cafes"] },
+    { "id": "shopping", "name": "Shopping", "shortName": "Shopping", "spent": 296, "limit": 450, "expenseCategoryIds": ["clothes"] },
+    { "id": "transport", "name": "Transport", "shortName": "Transport", "spent": 182, "limit": 300, "expenseCategoryIds": ["travel"] }
+  ]
+}

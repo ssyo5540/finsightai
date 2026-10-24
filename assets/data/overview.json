@@ -1,0 +1,15 @@
+{
+  "asOf": "2026-10-24",
+  "totalBalance": 12680.42,
+  "balanceChangePct": 2.46,
+  "featuredCardId": "gold",
+  "rewardsNudge": {
+    "title": "You missed $14.80 in rewards",
+    "body": "Use Gold Dining for restaurants — 4× points"
+  },
+  "notifications": [
+    { "icon": "alert", "title": "Dining budget at 92%", "body": "$32 left for the next 7 days.", "route": "/budget" },
+    { "icon": "repeat", "title": "Netflix renews Monday", "body": "$22.99 on Gold Dining.", "route": "/subscriptions" },
+    { "icon": "plane", "title": "Japan Trip is on track", "body": "65% saved, $1,760 to go.", "route": "/savings" }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "pointValue": 0.02,
+  "utilizationPct": 28,
+  "utilizationNote": "Healthy · below 30%",
+  "rewardsPoints": 42180,
+  "rewardsValue": 421.80,
+  "rewardsThisMonth": 3240,
+  "cards": [
+    {
+      "id": "gold",
+      "name": "Gold Dining",
+      "last4": "9286",
+      "expiry": "08 / 32",
+      "network": "VISA",
+      "isCredit": true,
+      "kindLabel": "Credit · 4× dining",
+      "perks": "4× dining · 3× groceries",
+      "balance": 1420,
+      "limit": 8000,
+      "rewardType": "points",
+      "rates": { "dining": 4, "groceries": 3, "travel": 1, "online": 1 },
+      "art": { "background": ["#2A2A2A", "#0F0F0F"], "accent": ["#F07A33", "#9A2C0C"], "thumb": ["#2A2A2A", "#E8601C"] }
+    },
+    {
+      "id": "sapphire",
+      "name": "Sapphire Travel",
+      "last4": "4410",
+      "expiry": "11 / 29",
+      "network": "VISA",
+      "isCredit": true,
+      "kindLabel": "Credit · 5× travel",
+      "perks": "5× travel · 2× transit",
+      "balance": 2860,
+      "limit": 12000,
+      "rewardType": "points",
+      "rates": { "dining": 2, "groceries": 1, "travel": 5, "online": 1 },
+      "art": { "background": ["#1D2C59", "#0E1630"], "accent": ["#6F8FF0", "#2B44A0"], "thumb": ["#1D2C59", "#4C6FD8"] }
+    },
+    {
+      "id": "cash",
+      "name": "Cash+ Everyday",
+      "last4": "7731",
+      "expiry": "03 / 30",
+      "network": "VISA",
+      "isCredit": true,
+      "kindLabel": "Credit · 2% cashback",
+      "perks": "2% cashback on all",
+      "balance": 640,
+      "limit": 5000,
+      "rewardType": "cashback",
+      "rates": { "all": 2 },
+      "art": { "background": ["#0E4B3A", "#072A20"], "accent": ["#47C995", "#17765A"], "thumb": ["#0E4B3A", "#2FA37A"] }
+    },
+    {
+      "id": "debit",
+      "name": "Checking Debit",
+      "last4": "0352",
+      "expiry": "05 / 31",
+      "network": "VISA",
+      "isCredit": false,
+      "kindLabel": "Debit",
+      "perks": "Debit · no rewards",
+      "balance": 8940,
+      "limit": null,
+      "rewardType": "none",
+      "rates": {},
+      "art": { "background": ["#8F8A84", "#4E4A46"], "accent": ["#CFCAC4", "#8F8A84"], "thumb": ["#CFCAC4", "#8F8A84"] }
+    }
+  ]
+}

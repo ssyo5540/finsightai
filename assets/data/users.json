@@ -1,0 +1,12 @@
+{
+  "_comment": "MVP accounts. There is no backend: sign-in is checked locally against this file. Every other file in assets/data belongs to this demo account.",
+  "users": [
+    {
+      "id": "usr_demo",
+      "email": "demo@finsight.app",
+      "password": "FinSight@2026",
+      "firstName": "Satwik",
+      "lastName": "Rudra"
+    }
+  ]
+}

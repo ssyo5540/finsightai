@@ -1,0 +1,25 @@
+{
+  "_comment": "Canned conversation for the MVP. **text** renders bold, [[text]] renders bold in the accent colour, {diningLeft} is filled in from the live budget.",
+  "connectedAgents": 5,
+  "conversation": [
+    { "from": "user", "text": "I'm having sushi tonight, about $60. Which card should I use?" },
+    { "from": "ai", "text": "Use **Gold Dining**. It earns 4× on restaurants, about [[$4.80]] back on $60." },
+    { "from": "ai", "cardId": "gold", "text": "$32 left in Dining budget" },
+    { "from": "ai", "text": "Heads up: this puts Dining at 107% of budget. Want me to move $30 from Shopping?" },
+    {
+      "from": "ai",
+      "actions": [
+        { "id": "move_budget", "label": "Yes, move $30", "primary": true, "reply": "Done. I moved **$30** from Shopping to Dining, so you now have [[{diningLeft}]] left for dining this month." },
+        { "id": "dismiss", "label": "Not now", "primary": false, "reply": "No problem. I'll keep an eye on **Dining** and nudge you if it gets tight." }
+      ]
+    }
+  ],
+  "suggestions": ["Where did I overspend?", "Bills due this week", "Savings plan"],
+  "replies": [
+    { "keywords": ["overspend", "overspent", "over budget", "spend"], "text": "Most of the overspend is **Dining out**: [[$368 of $400]] with 7 days left. Weekend delivery orders pushed it 18% above September." },
+    { "keywords": ["bill", "due", "renew", "subscription"], "text": "Three renewals this week: **Netflix** on Monday ($22.99), **Spotify** on Wednesday ($19.99) and **iCloud+** on Friday ($9.99). Rent is due Nov 1." },
+    { "keywords": ["save", "saving", "goal", "japan"], "text": "You're 65% of the way to **Japan Trip**. Keeping [[$440 a month]] gets you there by Mar 2027, and round-ups would make it 5 weeks sooner." },
+    { "keywords": ["card", "reward", "points", "pay"], "text": "Use **Gold Dining** for restaurants (4×), **Sapphire Travel** for flights and hotels (5×) and **Cash+ Everyday** for everything else (2%)." }
+  ],
+  "fallback": "I can help with budgets, cards, subscriptions and savings goals. Try asking **Where did I overspend?**"
+}

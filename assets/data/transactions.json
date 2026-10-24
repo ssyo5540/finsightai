@@ -1,0 +1,14 @@
+{
+  "transactions": [
+    { "id": "txn_001", "merchant": "Whole Foods Market", "category": "Groceries", "expenseCategoryId": "groceries", "amount": -86.40, "date": "2026-10-24T18:42:00", "note": "+258 pts", "avatar": { "text": "WF", "bg": "#FDE8E4", "fg": "#C2321E" } },
+    { "id": "txn_002", "merchant": "Acme Corp Payroll", "category": "Income", "amount": 3240.00, "date": "2026-10-24T08:15:00", "note": "Checking", "avatar": { "text": "AC", "bg": "#E8EEFC", "fg": "#3655B3" } },
+    { "id": "txn_003", "merchant": "Blue Bottle Coffee", "category": "Cafes", "expenseCategoryId": "cafes", "amount": -12.50, "date": "2026-10-23T10:22:00", "note": "+50 pts", "avatar": { "icon": "coffee", "bg": "#F1F0EE", "fg": "#444444" } },
+    { "id": "txn_004", "merchant": "Uber", "category": "Transport", "amount": -24.30, "date": "2026-10-22T21:05:00", "note": "+49 pts", "avatar": { "text": "U", "bg": "#F1F0EE", "fg": "#111111" } },
+    { "id": "txn_005", "merchant": "Zara", "category": "Clothes & Shoes", "expenseCategoryId": "clothes", "amount": -129.00, "date": "2026-10-22T14:10:00", "note": "+$2.58 back", "avatar": { "text": "Z", "bg": "#F1F0EE", "fg": "#111111" } },
+    { "id": "txn_006", "merchant": "Delta Air Lines", "category": "Travel", "expenseCategoryId": "travel", "amount": -312.40, "date": "2026-10-21T09:30:00", "note": "+1,562 pts", "avatar": { "icon": "plane", "bg": "#E8EEFC", "fg": "#3655B3" } },
+    { "id": "txn_007", "merchant": "Comcast Xfinity", "category": "Bills", "expenseCategoryId": "bills", "amount": -79.99, "date": "2026-10-20T07:00:00", "note": "+$1.60 back", "avatar": { "text": "CX", "bg": "#FFF1E7", "fg": "#B8470F" } },
+    { "id": "txn_008", "merchant": "Trader Joe's", "category": "Groceries", "expenseCategoryId": "groceries", "amount": -64.18, "date": "2026-10-19T17:48:00", "note": "+193 pts", "avatar": { "text": "TJ", "bg": "#FDE8E4", "fg": "#C2321E" } },
+    { "id": "txn_009", "merchant": "Studio Nine Freelance", "category": "Income", "amount": 850.00, "date": "2026-10-18T12:00:00", "note": "Checking", "avatar": { "text": "S9", "bg": "#E3F7EA", "fg": "#1F7A4D" } },
+    { "id": "txn_010", "merchant": "Nike", "category": "Sport", "expenseCategoryId": "sport", "amount": -96.00, "date": "2026-10-18T11:20:00", "note": "+$1.92 back", "avatar": { "icon": "dumbbell", "bg": "#FFF1E7", "fg": "#B8470F" } }
+  ]
+}
