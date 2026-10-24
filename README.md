@@ -71,6 +71,7 @@ assets/data/        Static JSON: users, overview, cards, transactions,
                     expenses, budgets, subscriptions, savings, insights,
                     agents, assistant script, pending payment
 assets/fonts/       Inter (the design's typeface)
+branding/           App icon and launch screen artwork and render script
 lib/
   main.dart         Loads the JSON, restores the session, starts the app
   router.dart       Routes and the floating-nav tab switching
@@ -86,6 +87,21 @@ test/               Unit and widget tests
 Changes made in the app (payments, new expenses, toggled agents, cancelled
 subscriptions, goal deposits, chat) live in memory for the session. Signing
 out resets the demo to the bundled data.
+
+## App icon and launch screen
+
+The icon is the Welcome screen's frosted logo tile on the warm gradient; the
+launch screen is the Welcome gradient with the logo and wordmark, so the
+first Flutter frame carries straight on from it. Android uses an adaptive
+icon and the Android 12 splash API.
+
+The artwork is HTML/CSS in [`branding/src/`](branding/src/). To change it,
+edit those files and regenerate the PNGs and every native icon and splash
+asset (needs Google Chrome):
+
+```bash
+branding/render.sh
+```
 
 ## Notes on the design
 
@@ -113,3 +129,6 @@ copy. Where the MVP needed more than the canvas shows:
   ([`assets/fonts/OFL.txt`](assets/fonts/OFL.txt))
 - [flutter_svg](https://pub.dev/packages/flutter_svg): MIT
 - [shared_preferences](https://pub.dev/packages/shared_preferences): BSD-3-Clause
+- [flutter_launcher_icons](https://pub.dev/packages/flutter_launcher_icons) and
+  [flutter_native_splash](https://pub.dev/packages/flutter_native_splash)
+  (dev only, generate the icons and splash): MIT
